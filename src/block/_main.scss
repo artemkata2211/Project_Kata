@@ -1,0 +1,107 @@
+.menu {
+    width: 100%;
+&__headline {
+    margin: 0;
+    box-sizing: border-box;
+    @media (min-width: 1366px) {
+        padding-top: 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+&__title {
+    position: relative;;
+    margin: 0;
+    font-family: 'TTLakesBold';
+    font-size: 28px;
+    padding: 10px 0 10px 15px;
+}
+&__title::before {
+    content: '';
+    position: absolute;
+    background-color: aqua;
+    left: 0;
+    right: 0;
+    width: 4px;
+    height: 70%;
+    background-color: aqua;
+    border-radius: 25%;
+}
+&__container {
+    display: none;
+    @media (min-width: 1366px) {
+        display: flex;
+        flex-basis: 35%;
+        align-items: center;
+        gap: 10px;
+        justify-content: end;
+    }
+  
+}
+&__items {
+    display: flex;
+    flex-basis: 200px;
+    align-items: center;
+    gap: 5px;
+    font-family:'TTLakesMedium';
+    justify-content: end;
+}
+&__repair {
+    background: url('../images/repair.svg') no-repeat center;
+    width: 50px;
+    height: 45px;
+    position: relative;
+    &::before {
+        position: absolute;
+        content: 'Оставить заявку';
+    right: 20px;
+    width: 200px;
+    bottom: 15px;
+    }
+  } 
+  &__review {
+    background: url('../images/checkstatus.svg') no-repeat center;
+    width: 50px;
+    height: 45px;
+    position: relative;
+    &::before {
+        position: absolute;
+        content: 'Статус ремонта';
+        right: 20px;
+        width: 200px;
+        bottom: 15px;
+      
+  }
+}
+}
+.nds__item {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-family: 'TTLakesRegular';
+    width: 80%;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+.btn__nds {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  width: 80%; 
+  &--item {
+    font-family:'TTLakesBold';
+    position: relative;
+    text-align: start;
+    font-family:'TTLakesMedium';
+    &::after {
+        content: '';
+        position: absolute;
+        background: url('../images/more.svg') no-repeat center;
+        width: 24px;
+        height: 24px;
+    }
+  }
+}
+
+

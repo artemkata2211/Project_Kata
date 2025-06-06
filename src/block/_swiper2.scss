@@ -1,0 +1,89 @@
+div .swiper-two {
+&-wrapper-two {
+    display: flex;
+    gap: 15px;
+    padding-left: 10px;
+    @media (min-width: 768px) {
+      gap: 40px;
+      padding: 20px;
+      flex-wrap: wrap;
+    }
+}
+&-slide--two {
+  display: flex;
+  max-width: 200px;
+  height: 160px;
+  padding: 10px;
+  position: relative;
+  justify-content: end;
+  align-items: end;
+  border: 1px solid #c0c0c0;
+  border-radius: 5px;
+&.hidden-two {
+    @media (min-width: 768px) {
+        display: none;
+    }
+    @media (min-width: 1366px) {
+      display:flex;
+    }
+   }
+}
+&-slide-name {
+    position: absolute;
+    top:10%;
+    bottom: 0;
+    left: 5%;
+    font-family: 'TTLakesRegular';
+ }
+&-link--two {
+  background: url('../images/go.svg') no-repeat center;
+  width: 50px;
+  height: 50px;
+}
+&-pagination {
+        position: static ; 
+    }
+
+}
+.btn-two {
+    display: none;
+    margin: 0;
+    padding: 0;
+    &__swiper--two {
+      font-family: 'TTLakesRegular';
+      position: relative;
+      left: 40px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      &::before {
+        position: absolute;
+        content: '';
+        background: url('../images/expand.svg') no-repeat ;
+        width: 100%;
+        height: 100%;
+        right: 25px;
+        top: 0;
+        bottom: 0;  
+      } 
+      &.icon--two::before {
+        position: absolute;
+        content: '';
+        background: url('../images/icon.svg') no-repeat;
+        width: 100%;
+        height: 100%;
+        right: 15px;
+        top: 5px;
+        bottom: 0;
+      } 
+    }
+    @media (min-width: 768px) {
+            display: block;
+         
+    }
+    
+}
+.swiper-pagination-bullet {
+        background:gray;
+         width: 10px;
+         height: 10px;
+    }

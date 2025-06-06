@@ -1,0 +1,108 @@
+div .swiper-three {
+   display: grid;
+   margin: 0;
+   grid-auto-flow: column;
+   @media (min-width: 768px) {
+      grid-auto-flow: row;
+   }
+   &-wrapper-three {
+      display: grid;
+      grid-template-columns: repeat(5 , 260px);
+      grid-template-rows: 200px;
+      gap: 15px;
+      padding: 10px;
+      align-items: center;
+      @media (min-width: 768px) {
+       grid-template-columns: 1fr; 
+       grid-template-rows: repeat(5, 65px); 
+       padding: 30px;
+       gap: 5px
+      }
+   }
+   &-slide-three {
+      position: relative;
+      font-family: "TTLakesRegular";
+      display: grid;
+      align-items: center;
+      grid-template-columns: repeat(2, 130px);
+      grid-template-areas: 
+      'one .'
+      'two .'
+      'three .'
+      'four .'
+      'five .'
+      'six seven';
+      @media (min-width: 768px) {
+         width: 100% !important;
+         grid-template-columns: 40% 20% 20% 20%;
+         grid-template-areas: 
+      'one three five .'
+      'two four six seven';
+      }
+      &:not(:nth-child(1))::before {
+         position: absolute;
+         display:none;
+         content: '';
+         background-color: gray;
+         width: 93%;
+         height: 2px;
+         top: 0;
+         bottom: 0;
+         opacity: 0.2;
+         @media (min-width: 768px) {
+            display: block;
+         }
+      }
+
+   }
+
+   &-pagination {
+        position: static ; 
+    }
+}
+.swiper-link-one {
+   grid-area: one;
+   opacity: 0.5;
+ }
+.swiper-link-two {
+   grid-area: two;
+   grid-column: span 2;
+   @media (min-width: 768px) {
+      grid-column: span 1;
+   }
+}
+.swiper-link-three {
+   grid-area: three;
+    opacity: 0.5;
+}
+.swiper-link-four{
+   grid-area: four;
+  
+}
+.swiper-link-five {
+   grid-area: five;
+    opacity: 0.5;
+}
+.swiper-link-six {
+   grid-area: six;
+}
+.btn-three {
+  grid-area: seven;
+  background-color: #FF3E79; 
+  width: 120px;
+  height: 32px;
+  border-radius: 25px;
+  color: white;
+}
+
+.swiper-pagination-bullet {
+        background:gray;
+         width: 10px;
+         height: 10px;
+    }
+.hidden {
+   display: block;
+   @media (min-width: 768px) {
+      display: none;
+   }
+}

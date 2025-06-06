@@ -1,0 +1,126 @@
+.menu__swiper--headline {
+    position: relative;
+    font-family: 'TTLakesRegular';
+    padding: 10px 0 10px 10px;
+    @media (min-width: 768px) {
+     padding: 20px 0 20px 20px;   
+    }
+    
+    opacity: 0.6;
+    &::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        background-color: aqua;
+        top: 0;
+        bottom: 0;
+        left: 0;
+    }
+}
+div .swiper-one {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    &-wrapper-one {
+      display: flex;
+        gap: 15px;
+        padding-left: 10px;
+        @media (min-width: 768px) {
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+        @media (min-width: 1366px) {
+          width: 100%;  
+        }
+    }
+    &-slide-one {
+         display: flex;
+         max-width: 220px;
+         height: 60px;
+         padding: 10px;
+         align-items: center;
+         justify-content: space-between;
+         border: 1px solid #c0c0c0;
+         border-radius: 5px;
+        }
+    &-close-button {
+      
+      &.hidden {
+          @media (min-width: 768px) {
+            display: none;
+          }
+          @media (min-width: 1366px) {
+            &:nth-child(7),
+            &:nth-child(8){
+              display: flex;
+            }
+          }
+        }
+        }
+    
+    
+
+    &-link-one {
+         display: block;
+         background: url('../images/go.svg') no-repeat center;
+         width: 50px;
+         height: 50px;
+         padding: 0;
+         border: none;
+         font: inherit;
+         color: inherit;
+         background-color: transparent;
+         cursor: pointer;
+    }
+    
+    &-pagination {
+        position: static ; 
+    }
+
+.swiper-pagination-bullet {
+        background:gray;
+         width: 10px;
+         height: 10px;
+    }
+  }
+.btn {
+    display: none;
+      margin: 0;
+    &__swiper {
+      font-family: 'TTLakesRegular';
+      position: relative;
+      left: 40px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      &::before {
+        position: absolute;
+        content: '';
+        background: url('../images/expand.svg') no-repeat ;
+        width: 100%;
+        height: 100%;
+        right: 25px;
+        top: 0;
+        bottom: 0;  
+      } 
+      &.icon::before {
+        position: absolute;
+        content: '';
+        background: url('../images/icon.svg') no-repeat;
+        width: 100%;
+        height: 100%;
+        right: 15px;
+        top: 5px;
+        bottom: 0;
+      } 
+    }
+    @media (min-width: 768px) {
+            display: block;       
+    }
+}
+    
+         
