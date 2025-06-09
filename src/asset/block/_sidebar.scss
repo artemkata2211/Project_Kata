@@ -26,7 +26,7 @@
     margin: 10px;    
     }
     &__burger {
-    background: url('../img/burger-two.svg') no-repeat center;
+    background: url('../asset/resourse/img/burger-two.svg') no-repeat center;
      width: 45px;
      height: 45px;
      border: 2px solid rgba(255, 255, 255, 1);
@@ -48,7 +48,7 @@
      margin-right: 10px;   
     }
     &__search {  
-        background: url('../img/search.svg') no-repeat center;
+        background: url('../src/asset/resourse/img/search.svg') no-repeat center;
         width: 45px;
         height: 45px;
         border: 2px solid rgba(255, 255, 255, 1);
@@ -109,7 +109,7 @@
   }
 }
   &__chatcopy {
-    background: url('../img/call.png') no-repeat center;
+    background: url('../src/asset/resourse/img/call.png') no-repeat center;
   width: 45px;
   height: 45px;
   border: 2px solid rgba(255, 255, 255, 1);
@@ -121,7 +121,7 @@
    } 
   }
   &__chat {
-     background: url('../img/chat.svg') no-repeat center;
+     background: url('../src/asset/resourse/img/chat.svg') no-repeat center;
      width: 45px;
      height: 45px;
      border: 2px solid rgba(255, 255, 255, 1);
@@ -133,7 +133,7 @@
      }
   }
   &__profile {
-    background: url('../img/profile.svg') no-repeat center;
+    background: url('../src/asset/resourse/img/profile.svg') no-repeat center;
     width: 45px;
     height: 45px;
     border: 2px solid rgba(255, 255, 255, 1);
@@ -167,7 +167,7 @@
     opacity: 1;
   }
   &::after {
-  background: url('../img/phone.svg') no-repeat center;
+  background: url('../src/asset/resourse/img/phone.svg') no-repeat center;
   width: 45px;
   height: 45px;
   position: absolute;

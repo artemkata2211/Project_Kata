@@ -1,8 +1,8 @@
-import '../src/js/script';
-import '../src/js/button';
-import '../src/js/swiper-two';
-import '../src/js/button-two';
-import '../src/js/swiper3';
-import '../src/js/burger';
-import '../src/js/feedback';
-import '../src/js/modal';
+import '../src/asset/js/script';
+import '../src/asset/js/button';
+import '../src/asset/js/swiper-two';
+import '../src/asset/js/button-two';
+import '../src/asset/js/swiper3';
+import '../src/asset/js/burger';
+import '../src/asset/js/feedback';
+import '../src/asset/js/modal';

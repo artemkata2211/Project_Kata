@@ -64,7 +64,7 @@ body .header__left {
 }
 body .header__burger {
   position: relative;
-  background: url("../images/burger.svg") no-repeat center;
+  background: url("../src/asset/resourse/img/burger.svg") no-repeat center;
   width: 50px;
   height: 50px;
 }
@@ -102,12 +102,12 @@ body .header__right {
 }
 body .header__repair {
   position: relative;
-  background: url("../images/repair.svg") no-repeat center;
+  background: url("../src/asset/resourse/img/repair.svg") no-repeat center;
   width: 65px;
   height: 50px;
 }
 body .header__checkstatus {
-  background: url("../images/checkstatus.svg") no-repeat center;
+  background: url("../src/asset/resourse/img/checkstatus.svg") no-repeat center;
   width: 50px;
   height: 50px;
 }
@@ -122,17 +122,17 @@ body .header__repair::before {
   left: 0;
 }
 body .header__call {
-  background: url("../images/call.png") no-repeat center;
+  background: url("../src/asset/resourse/img/call.png") no-repeat center;
   width: 50px;
   height: 50px;
 }
 body .header__chat {
-  background: url("../images/chat.svg") no-repeat center;
+  background: url("../src/asset/resourse/img/chat.svg") no-repeat center;
   width: 50px;
   height: 50px;
 }
 body .header__profile {
-  background: url("../images/profile.svg") no-repeat center;
+  background: url("../src/asset/resourse/img/profile.svg") no-repeat center;
   width: 50px;
   height: 50px;
 }
@@ -191,7 +191,7 @@ body .header__profile {
   justify-content: end;
 }
 .menu__repair {
-  background: url("../images/repair.svg") no-repeat center;
+  background: url("../src/asset/resourse/img/repair.svg") no-repeat center;
   width: 50px;
   height: 45px;
   position: relative;
@@ -204,7 +204,7 @@ body .header__profile {
   bottom: 15px;
 }
 .menu__review {
-  background: url("../images/checkstatus.svg") no-repeat center;
+  background: url("../src/asset/resourse/img/checkstatus.svg") no-repeat center;
   width: 50px;
   height: 45px;
   position: relative;
@@ -242,7 +242,7 @@ body .header__profile {
 .btn__nds--item::after {
   content: "";
   position: absolute;
-  background: url("../images/more.svg") no-repeat center;
+  background: url("../src/asset/resourse/img/more.svg") no-repeat center;
   width: 24px;
   height: 24px;
 }
@@ -322,7 +322,7 @@ body .header__profile {
 .info__expand::before {
   position: absolute;
   content: "";
-  background: url("../images/expand.svg") no-repeat center;
+  background: url("../../asset/resourse/img/expand.svg") no-repeat center;
   width: 24px;
   height: 100%;
   left: 0;
@@ -340,19 +340,19 @@ body .header__profile {
 
 @font-face {
   font-family: "TTLakesRegular";
-  src: url("../fonts/TTLakes-Regular.woff") format("woff");
+  src: url("../../asset/resourse/fonts/TTLakes-Regular.woff") format("woff");
   font-display: swap;
 }
 @font-face {
   font-family: "TTLakesBold";
-  src: url("../fonts/TTLakes-Bold.woff") format("woff");
+  src: url("../../asset/resourse/fonts/TTLakes-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "TTLakesMedium";
-  src: url("../fonts/TTLakes-Medium.woff");
+  src: url("../../asset/resourse/fonts/TTLakes-Medium.woff");
 }
 .menu__swiper--headline {
   position: relative;
@@ -423,7 +423,7 @@ div .swiper-one-slide-one {
 }
 div .swiper-one-link-one {
   display: block;
-  background: url("../images/go.svg") no-repeat center;
+  background: url("../src/asset/resourse/img/img/go.svg") no-repeat center;
   width: 50px;
   height: 50px;
   padding: 0;
@@ -456,7 +456,7 @@ div .swiper-one .swiper-pagination-bullet {
 .btn__swiper::before {
   position: absolute;
   content: "";
-  background: url("../images/expand.svg") no-repeat;
+  background: url("../src/asset/resourse/img/img/expand.svg") no-repeat;
   width: 100%;
   height: 100%;
   right: 25px;
@@ -466,7 +466,7 @@ div .swiper-one .swiper-pagination-bullet {
 .btn__swiper.icon::before {
   position: absolute;
   content: "";
-  background: url("../images/icon.svg") no-repeat;
+  background: url("../src/asset/resourse/img/img/icon.svg") no-repeat;
   width: 100%;
   height: 100%;
   right: 15px;
@@ -520,7 +520,7 @@ div .swiper-two-slide-name {
   font-family: "TTLakesRegular";
 }
 div .swiper-two-link--two {
-  background: url("../images/go.svg") no-repeat center;
+  background: url("../src/asset/resourse/img/go.svg") no-repeat center;
   width: 50px;
   height: 50px;
 }
@@ -543,7 +543,7 @@ div .swiper-two-pagination {
 .btn-two__swiper--two::before {
   position: absolute;
   content: "";
-  background: url("../images/expand.svg") no-repeat;
+  background: url("../src/asset/resourse/img/expand.svg") no-repeat;
   width: 100%;
   height: 100%;
   right: 25px;
@@ -553,7 +553,7 @@ div .swiper-two-pagination {
 .btn-two__swiper--two.icon--two::before {
   position: absolute;
   content: "";
-  background: url("../images/icon.svg") no-repeat;
+  background: url("../src/asset/resourse/img/icon.svg") no-repeat;
   width: 100%;
   height: 100%;
   right: 15px;
@@ -756,7 +756,7 @@ div .swiper-three-pagination {
   margin: 10px;
 }
 .div__burger {
-  background: url("../images/burger-two.svg") no-repeat center;
+  background: url("../asset/resourse/img/burger-two.svg") no-repeat center;
   width: 45px;
   height: 45px;
   border: 2px solid rgb(255, 255, 255);
@@ -780,7 +780,7 @@ div .swiper-three-pagination {
   margin-right: 10px;
 }
 .div__search {
-  background: url("../images/search.svg") no-repeat center;
+  background: url("../src/asset/resourse/img/search.svg") no-repeat center;
   width: 45px;
   height: 45px;
   border: 2px solid rgb(255, 255, 255);
@@ -850,7 +850,7 @@ div .swiper-three-pagination {
   }
 }
 .contact__chatcopy {
-  background: url("../images/call.png") no-repeat center;
+  background: url("../src/asset/resourse/img/call.png") no-repeat center;
   width: 45px;
   height: 45px;
   border: 2px solid rgb(255, 255, 255);
@@ -862,7 +862,7 @@ div .swiper-three-pagination {
   transition: all 0.7s ease;
 }
 .contact__chat {
-  background: url("../images/chat.svg") no-repeat center;
+  background: url("../src/asset/resourse/img/chat.svg") no-repeat center;
   width: 45px;
   height: 45px;
   border: 2px solid rgb(255, 255, 255);
@@ -874,7 +874,7 @@ div .swiper-three-pagination {
   transition: all 0.7s ease;
 }
 .contact__profile {
-  background: url("../images/profile.svg") no-repeat center;
+  background: url("../src/asset/resourse/img/profile.svg") no-repeat center;
   width: 45px;
   height: 45px;
   border: 2px solid rgb(255, 255, 255);
@@ -909,7 +909,7 @@ div .swiper-three-pagination {
   opacity: 1;
 }
 .contact__namber::after {
-  background: url("../images/phone.svg") no-repeat center;
+  background: url("../src/asset/resourse/img/phone.svg") no-repeat center;
   width: 45px;
   height: 45px;
   position: absolute;
@@ -981,7 +981,7 @@ div .swiper-three-pagination {
   height: 40px;
 }
 .feedback__btn-item {
-  background: url("../images/burger-two.svg") no-repeat center;
+  background: url("../src/asset/resourse/img/burger-two.svg") no-repeat center;
   width: 50px;
   height: 50px;
   position: relative;
@@ -1087,7 +1087,7 @@ span {
   height: 40px;
 }
 .modal__btn-item {
-  background: url("../images/burger-two.svg") no-repeat center;
+  background: url("../src/asset/resourse/img/burger-two.svg") no-repeat center;
   width: 50px;
   height: 50px;
   position: relative;
