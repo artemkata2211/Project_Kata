@@ -14,7 +14,7 @@ module.exports = (env) => {
 		output: {
 			path: path.resolve(__dirname, 'build'),
 			filename: '[name].[contenthash].js',
-			assetModuleFilename: 'asset/images/[name].[contenthash].[ext]',
+			assetModuleFilename: 'asset/[name].[contenthash].[ext]',
 			clean: true
 		},
 	
@@ -52,7 +52,7 @@ module.exports = (env) => {
 					test: /\.(woff|woff2|eot|ttf|otf)$/i,
 					type: 'asset/resource',
 					generator: {
-						filename: 'fonts/[name][ext]'
+						filename: './src/fonts/[name][ext]'
 					}
 				},
 				{
