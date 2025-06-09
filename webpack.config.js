@@ -103,7 +103,7 @@ module.exports = (env) => {
 			}),
 			new webpack.ProgressPlugin(),
 			new MiniCssExtractPlugin({
-				filename: '[name].[contenthash].css'
+				filename: './src/[name].[contenthash].css'
 			})
 		],
 		devServer: {
