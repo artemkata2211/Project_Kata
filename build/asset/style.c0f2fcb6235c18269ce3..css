@@ -340,19 +340,19 @@ body .header__profile {
 
 @font-face {
   font-family: "TTLakesRegular";
-  src: url("../fonts/TTLikes/TTLakes-Regular.woff") format("woff");
+  src: url("../fonts/TTLakes-Regular.woff") format("woff");
   font-display: swap;
 }
 @font-face {
   font-family: "TTLakesBold";
-  src: url("../fonts/TTLikes/TTLakes-Bold.woff") format("woff");
+  src: url("../fonts/TTLakes-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "TTLakesMedium";
-  src: url("../fonts/TTLikes/TTLakes-Medium.woff");
+  src: url("../fonts/TTLakes-Medium.woff");
 }
 .menu__swiper--headline {
   position: relative;
