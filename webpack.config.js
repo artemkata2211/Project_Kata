@@ -52,7 +52,7 @@ module.exports = (env) => {
 					test: /\.(woff|woff2|eot|ttf|otf)$/i,
 					type: 'asset/resource',
 					generator: {
-						filename: 'src/fonts/[name][ext]'
+						filename: 'src/fonts/[name][woff]'
 					}
 				},
 				{
