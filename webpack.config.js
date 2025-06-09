@@ -14,7 +14,7 @@ module.exports = (env) => {
 		output: {
 			path: path.resolve(__dirname, 'build'),
 			filename: '[name].[contenthash].js',
-			assetModuleFilename: 'asset/[name].[contenthash].[ext]',
+			assetModuleFilename: 'asset/images/[name].[contenthash].[ext]',
 			clean: true
 		},
 	
@@ -52,7 +52,7 @@ module.exports = (env) => {
 					test: /\.(woff|woff2|eot|ttf|otf)$/i,
 					type: 'asset/resource',
 					generator: {
-						filename: 'src/fonts/[name][woff]'
+						filename: 'fonts/[name][ext]'
 					}
 				},
 				{
@@ -103,7 +103,7 @@ module.exports = (env) => {
 			}),
 			new webpack.ProgressPlugin(),
 			new MiniCssExtractPlugin({
-				filename: './src/[name].[contenthash].css'
+				filename: '[name].[contenthash].css'
 			})
 		],
 		devServer: {
