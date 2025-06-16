@@ -46,7 +46,7 @@ body {
     }
      &__burger {
       position: relative;
-            background: url('http://localhost:9000/img/burger.svg') no-repeat center;        
+            background: url('/src/img/burger.svg') no-repeat center;        
             width: 50px;
             height: 50px;
             @media (min-width: 768px) {
@@ -80,12 +80,12 @@ body {
     }
     &__repair {
     position: relative;
-    background: url('http://localhost:9000/img/repair.svg') no-repeat center;
+    background: url('/src/img/repair.svg') no-repeat center;
     width: 65px;
     height: 50px;
     }
     &__checkstatus {
-    background: url('http://localhost:9000/img/checkstatus.svg') no-repeat center;
+    background: url('/src/img/checkstatus.svg') no-repeat center;
     width: 50px;
     height: 50px;
    }
@@ -100,17 +100,17 @@ body {
     left: 0;
    }
    &__call {
-    background: url('http://localhost:9000/img/call.png') no-repeat center;
+    background: url('/src/img/call.png') no-repeat center;
     width: 50px;
     height: 50px;
    }
    &__chat {
-    background: url('http://localhost:9000/img/chat.svg') no-repeat center;
+    background: url('/src/img/chat.svg') no-repeat center;
      width: 50px;
     height: 50px;
    }
    &__profile {
-    background: url('http://img/profile.svg') no-repeat center;
+    background: url('/src/img/profile.svg') no-repeat center;
      width: 50px;
     height: 50px;
    }

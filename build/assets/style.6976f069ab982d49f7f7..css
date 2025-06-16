@@ -52,7 +52,7 @@ body .header__left {
 }
 body .header__burger {
   position: relative;
-  background: url("http://localhost:9000/img/burger.svg") no-repeat center;
+  background: url("/src/img/burger.svg") no-repeat center;
   width: 50px;
   height: 50px;
 }
@@ -90,12 +90,12 @@ body .header__right {
 }
 body .header__repair {
   position: relative;
-  background: url("http://localhost:9000/img/repair.svg") no-repeat center;
+  background: url("/src/img/repair.svg") no-repeat center;
   width: 65px;
   height: 50px;
 }
 body .header__checkstatus {
-  background: url("http://localhost:9000/img/checkstatus.svg") no-repeat center;
+  background: url("/src/img/checkstatus.svg") no-repeat center;
   width: 50px;
   height: 50px;
 }
@@ -110,17 +110,17 @@ body .header__repair::before {
   left: 0;
 }
 body .header__call {
-  background: url("http://localhost:9000/img/call.png") no-repeat center;
+  background: url("/src/img/call.png") no-repeat center;
   width: 50px;
   height: 50px;
 }
 body .header__chat {
-  background: url("http://localhost:9000/img/chat.svg") no-repeat center;
+  background: url("/src/img/chat.svg") no-repeat center;
   width: 50px;
   height: 50px;
 }
 body .header__profile {
-  background: url("http://localhost:9000/img/profile.svg") no-repeat center;
+  background: url("/src/img/profile.svg") no-repeat center;
   width: 50px;
   height: 50px;
 }
@@ -179,7 +179,7 @@ body .header__profile {
   justify-content: end;
 }
 .menu__repair {
-  background: url("http://localhost:9000/img/repair.svg") no-repeat center;
+  background: url("/src/img/repair.svg") no-repeat center;
   width: 50px;
   height: 45px;
   position: relative;
@@ -192,7 +192,7 @@ body .header__profile {
   bottom: 15px;
 }
 .menu__review {
-  background: url("http://localhost:9000/img/checkstatus.svg") no-repeat center;
+  background: url("/src/img/checkstatus.svg") no-repeat center;
   width: 50px;
   height: 45px;
   position: relative;
@@ -230,7 +230,7 @@ body .header__profile {
 .btn__nds--item::after {
   content: "";
   position: absolute;
-  background: url("http://localhost:9000/img/more.svg") no-repeat center;
+  background: url("/src/img/more.svg") no-repeat center;
   width: 24px;
   height: 24px;
 }
@@ -310,7 +310,7 @@ body .header__profile {
 .info__expand::before {
   position: absolute;
   content: "";
-  background: url("http://localhost:9000/img/expand.svg") no-repeat center;
+  background: url("/src/img/expand.svg") no-repeat center;
   width: 24px;
   height: 100%;
   left: 0;
@@ -411,7 +411,7 @@ div .swiper-one-slide-one {
 }
 div .swiper-one-link-one {
   display: block;
-  background: url("http://localhost:9000/img/go.svg") no-repeat center;
+  background: url("/src/img/go.svg") no-repeat center;
   width: 50px;
   height: 50px;
   padding: 0;
@@ -444,7 +444,7 @@ div .swiper-one .swiper-pagination-bullet {
 .btn__swiper::before {
   position: absolute;
   content: "";
-  background: url("http://localhost:9000/img/expand.svg") no-repeat;
+  background: url("/src/img/expand.svg") no-repeat;
   width: 100%;
   height: 100%;
   right: 25px;
@@ -454,7 +454,7 @@ div .swiper-one .swiper-pagination-bullet {
 .btn__swiper.icon::before {
   position: absolute;
   content: "";
-  background: url("http://localhost:9000/img/icon.svg") no-repeat;
+  background: url("/src/img/icon.svg") no-repeat;
   width: 100%;
   height: 100%;
   right: 15px;
@@ -508,7 +508,7 @@ div .swiper-two-slide-name {
   font-family: "TTLakesRegular";
 }
 div .swiper-two-link--two {
-  background: url("http://localhost:9000/img/go.svg") no-repeat center;
+  background: url("/src/img/go.svg") no-repeat center;
   width: 50px;
   height: 50px;
 }
@@ -531,7 +531,7 @@ div .swiper-two-pagination {
 .btn-two__swiper--two::before {
   position: absolute;
   content: "";
-  background: url("http://localhost:9000/img/expand.svg") no-repeat;
+  background: url("/src/img/expand.svg") no-repeat;
   width: 100%;
   height: 100%;
   right: 25px;
@@ -541,7 +541,7 @@ div .swiper-two-pagination {
 .btn-two__swiper--two.icon--two::before {
   position: absolute;
   content: "";
-  background: url("http://localhost:9000/img/icon.svg") no-repeat;
+  background: url("/src/img/icon.svg") no-repeat;
   width: 100%;
   height: 100%;
   right: 15px;
@@ -744,7 +744,7 @@ div .swiper-three-pagination {
   margin: 10px;
 }
 .div__burger {
-  background: url("http://localhost:9000/img/burger-two.svg") no-repeat center;
+  background: url("/src/img/burger-two.svg") no-repeat center;
   width: 45px;
   height: 45px;
   border: 2px solid rgb(255, 255, 255);
@@ -768,7 +768,7 @@ div .swiper-three-pagination {
   margin-right: 10px;
 }
 .div__search {
-  background: url("http://localhost:9000/img/search.svg") no-repeat center;
+  background: url("/src/img/search.svg") no-repeat center;
   width: 45px;
   height: 45px;
   border: 2px solid rgb(255, 255, 255);
@@ -838,7 +838,7 @@ div .swiper-three-pagination {
   }
 }
 .contact__chatcopy {
-  background: url("http://localhost:9000/img/call.png") no-repeat center;
+  background: url("/src/img/call.png") no-repeat center;
   width: 45px;
   height: 45px;
   border: 2px solid rgb(255, 255, 255);
@@ -850,7 +850,7 @@ div .swiper-three-pagination {
   transition: all 0.7s ease;
 }
 .contact__chat {
-  background: url("http://localhost:9000/img/chat.svg") no-repeat center;
+  background: url("/src/img/chat.svg") no-repeat center;
   width: 45px;
   height: 45px;
   border: 2px solid rgb(255, 255, 255);
@@ -862,7 +862,7 @@ div .swiper-three-pagination {
   transition: all 0.7s ease;
 }
 .contact__profile {
-  background: url("http://localhost:9000/img/profile.svg") no-repeat center;
+  background: url("/src/img/profile.svg") no-repeat center;
   width: 45px;
   height: 45px;
   border: 2px solid rgb(255, 255, 255);
@@ -897,7 +897,7 @@ div .swiper-three-pagination {
   opacity: 1;
 }
 .contact__namber::after {
-  background: url("http://localhost:9000/img/phone.svg") no-repeat center;
+  background: url("/src/img/phone.svg") no-repeat center;
   width: 45px;
   height: 45px;
   position: absolute;
@@ -969,7 +969,7 @@ div .swiper-three-pagination {
   height: 40px;
 }
 .feedback__btn-item {
-  background: url("http://localhost:9000/img/burger-two.svg") no-repeat center;
+  background: url("/src/img/burger-two.svg") no-repeat center;
   width: 50px;
   height: 50px;
   position: relative;
@@ -1075,7 +1075,7 @@ span {
   height: 40px;
 }
 .modal__btn-item {
-  background: url("http://localhost:9000/img/burger-two.svg") no-repeat center;
+  background: url("/src/img/burger-two.svg") no-repeat center;
   width: 50px;
   height: 50px;
   position: relative;
