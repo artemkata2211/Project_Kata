@@ -36,7 +36,7 @@ div .swiper-two {
     font-family: 'TTLakesRegular';
  }
 &-link--two {
-  background: url('../img/go.svg') no-repeat center;
+  background: url('http://localhost:9000/img/go.svg') no-repeat center;
   width: 50px;
   height: 50px;
 }
@@ -58,7 +58,7 @@ div .swiper-two {
       &::before {
         position: absolute;
         content: '';
-        background: url('../img/expand.svg') no-repeat ;
+        background: url('http://localhost:9000/img/expand.svg') no-repeat ;
         width: 100%;
         height: 100%;
         right: 25px;
@@ -68,7 +68,7 @@ div .swiper-two {
       &.icon--two::before {
         position: absolute;
         content: '';
-        background: url('../img/icon.svg') no-repeat;
+        background: url('http://localhost:9000/img/icon.svg') no-repeat;
         width: 100%;
         height: 100%;
         right: 15px;

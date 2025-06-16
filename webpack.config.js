@@ -50,7 +50,8 @@ module.exports = (env) => {
 					test: /\.(woff|woff2|eot|ttf|otf)$/i,
 					type: 'asset/resource',
 					generator: {
-						filename: 'fonts/[name][ext][query]'
+						filename: 'src/fonts/[name][ext][query]',
+						outputPath: 'assets/fonts/',
 					}
 				},
 				{
@@ -78,7 +79,11 @@ module.exports = (env) => {
 							}
 						}
 					],
-					type: 'asset/resource'
+					type: 'asset/resource',
+					 generator: {
+						filename: 'img/[name][ext][query]',
+						outputPath: 'assets/img/',
+        },
 				},
 				{
 					test: /\.(?:js|mjs|cjs)$/,
