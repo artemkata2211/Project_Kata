@@ -1,1 +1,0 @@
-https://artemkata2211.github.io/Project_Kata/
