@@ -52,7 +52,7 @@ body .header__left {
 }
 body .header__burger {
   position: relative;
-  background: url("https://pixy.org/src2/664/6645126.png") no-repeat center;
+  background: url("../img/burger.svg") no-repeat center;
   width: 50px;
   height: 50px;
 }
@@ -90,12 +90,12 @@ body .header__right {
 }
 body .header__repair {
   position: relative;
-  background: url("../img/repair.svg") no-repeat center;
+  background: url("..s/img/repair.svg") no-repeat center;
   width: 65px;
   height: 50px;
 }
 body .header__checkstatus {
-  background: url("../img/checkstatus.svg") no-repeat center;
+  background: url("..s/img/checkstatus.svg") no-repeat center;
   width: 50px;
   height: 50px;
 }
@@ -110,17 +110,17 @@ body .header__repair::before {
   left: 0;
 }
 body .header__call {
-  background: url("../img/call.png") no-repeat center;
+  background: url("..s/img/call.png") no-repeat center;
   width: 50px;
   height: 50px;
 }
 body .header__chat {
-  background: url("../img/chat.svg") no-repeat center;
+  background: url("..s/img/chat.svg") no-repeat center;
   width: 50px;
   height: 50px;
 }
 body .header__profile {
-  background: url("../img/profile.svg") no-repeat center;
+  background: url("/srcs/img/profile.svg") no-repeat center;
   width: 50px;
   height: 50px;
 }
@@ -744,7 +744,7 @@ div .swiper-three-pagination {
   margin: 10px;
 }
 .div__burger {
-  background: url("../asset/resource/img/burger-two.svg") no-repeat center;
+  background: url("../img/burger-two.svg") no-repeat center;
   width: 45px;
   height: 45px;
   border: 2px solid rgb(255, 255, 255);
@@ -768,7 +768,7 @@ div .swiper-three-pagination {
   margin-right: 10px;
 }
 .div__search {
-  background: url("../src/asset/resource/img/search.svg") no-repeat center;
+  background: url("../img/search.svg") no-repeat center;
   width: 45px;
   height: 45px;
   border: 2px solid rgb(255, 255, 255);
@@ -838,7 +838,7 @@ div .swiper-three-pagination {
   }
 }
 .contact__chatcopy {
-  background: url("../src/asset/resource/img/call.png") no-repeat center;
+  background: url("../img/call.png") no-repeat center;
   width: 45px;
   height: 45px;
   border: 2px solid rgb(255, 255, 255);
@@ -850,7 +850,7 @@ div .swiper-three-pagination {
   transition: all 0.7s ease;
 }
 .contact__chat {
-  background: url("../src/asset/resource/img/chat.svg") no-repeat center;
+  background: url("../img/chat.svg") no-repeat center;
   width: 45px;
   height: 45px;
   border: 2px solid rgb(255, 255, 255);
@@ -862,7 +862,7 @@ div .swiper-three-pagination {
   transition: all 0.7s ease;
 }
 .contact__profile {
-  background: url("../src/asset/resource/img/profile.svg") no-repeat center;
+  background: url("../img/profile.svg") no-repeat center;
   width: 45px;
   height: 45px;
   border: 2px solid rgb(255, 255, 255);
@@ -897,7 +897,7 @@ div .swiper-three-pagination {
   opacity: 1;
 }
 .contact__namber::after {
-  background: url("../src/asset/resource/img/phone.svg") no-repeat center;
+  background: url("../img/phone.svg") no-repeat center;
   width: 45px;
   height: 45px;
   position: absolute;
