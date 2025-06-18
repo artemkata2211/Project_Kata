@@ -1,48 +1,54 @@
 {
-  "name": "package",
+  "name": "web-last-block",
   "version": "1.0.0",
-  "description": "Webpack",
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build:dev": "webpack --env mode=development",
-    "build:prod": "webpack --env mode=production",
-    "serve": "webpack serve",
-    "deploy": "gh-pages -d build"
-  },
-  "author": "Alexsandr Pavlov",
+  "description": "",
+  "keywords": [
+    "web",
+    "scss",
+    "html",
+    "javascript",
+    "webpack"
+  ],
   "license": "ISC",
-  "devDependencies": {
-    "@babel/core": "^7.26.0",
-    "@babel/preset-env": "^7.26.0",
-    "@eslint/js": "^9.16.0",
-    "babel-eslint": "^10.1.0",
-    "babel-loader": "^9.2.1",
-    "css-loader": "^7.1.2",
-    "eslint": "^9.16.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-prettier": "^5.2.1",
-    "eslint-plugin-react": "^7.37.2",
-    "gh-pages": "^6.2.0",
-    "globals": "^15.13.0",
-    "group-css-media-queries-loader": "^4.3.0",
-    "html-loader": "^5.1.0",
-    "html-webpack-plugin": "^5.6.3",
-    "image-webpack-loader": "^8.0.1",
-    "mini-css-extract-plugin": "^2.9.2",
-    "prettier": "3.4.2",
-    "resolve-url-loader": "^5.0.0",
-    "sass": "^1.82.0",
-    "sass-loader": "^16.0.4",
-    "sass-migrator": "^2.2.1",
-    "style-loader": "^4.0.0",
-    "webpack": "^5.97.1",
-    "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^5.1.0"
+  "author": "Kata Academy",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "dev": "webpack --mode development",
+    "start": "webpack-dev-server --mode development --open",
+    "watch": "webpack --mode development --watch"
   },
-  "dependencies": {
-    "autoprefixer": "^10.4.20",
+  "browserslist": [
+    "last 2 versions",
+    "Firefox ESR",
+    "not OperaMini All",
+    "not dead"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.27.4",
+    "@babel/preset-env": "^7.27.2",
+    "autoprefixer": "^10.4.21",
+    "babel-loader": "^10.0.0",
+    "copy-webpack-plugin": "^13.0.0",
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "gh-pages": "^6.3.0",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "node": "^24.2.0",
     "postcss-loader": "^8.1.1",
-    "postcss-preset-env": "^10.1.1"
+    "sass": "^1.89.2",
+    "sass-loader": "^16.0.5",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  },
+  "engineStrict": true,
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
   }
 }
